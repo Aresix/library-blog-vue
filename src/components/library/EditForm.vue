@@ -27,7 +27,8 @@
           <el-input v-model="form.press" autocomplete="off"/>
         </el-form-item>
         <el-form-item label="封面" :label-width="formLabelWidth" prop="cover">
-          <el-input v-model="form.cover" autocomplete="off" placeholder="请给出图片URL~"/>
+          <el-input v-model="form.cover" autocomplete="off" placeholder="点击下方按钮就好啦~"/>
+          <img-upload @onUpload="uploadImg" ref="imgUpload"/>
         </el-form-item>
         <el-form-item label="分类" :label-width="formLabelWidth" prop="cid">
           <el-select v-model="form.category.id" placeholder="请选择分类">
@@ -56,9 +57,11 @@
 </template>
 
 <script>
+    import ImgUpload from '../common/ImgUpload'
     export default {
         name: 'EditForm',
-        data () {
+      components: {ImgUpload},
+      data () {
           return {
             dialogFormVisible: false,
             form: {
@@ -89,7 +92,10 @@
               press: '',
               cover: '',
               grade: 0,
-              category: ''
+              category: {
+                id: '',
+                name: ''
+              }
             }
           },
         onSubmit () {
@@ -121,7 +127,10 @@
                 }
             })
             // 强制刷新页面
-            location.reload()
+            // location.reload()
+        },
+        uploadImg () {
+            this.form.cover = this.$refs.imgUpload.url
         }
       }
     }

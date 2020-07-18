@@ -25,6 +25,7 @@
               <div class="title">
                 <a href="">{{item.title}}</a>
               </div>
+              <el-checkbox v-model="like" @checked="likeBook(item.id)" class="likeBooks">喜欢</el-checkbox>
               <i class="el-icon-delete" @click="deleteBook(item.id)"/>
             </div>
             <div class="author">{{item.author}}</div>
@@ -54,7 +55,8 @@
         return {
           books: [],
           currentPage: 1,
-          pagesize: 10
+          pagesize: 10,
+          like: false
           // books: [
           //   {
           //     cover: 'http://lib.zjsru.edu.cn/__local/E/E9/5A/33C68A6BBF6CBC694B427CFF09D_489C6387_1183A.jpg',
@@ -132,6 +134,11 @@
             })
           })
         },
+        likeBook (item) {
+          this.like = !this.like
+          console.log(item)
+          // TODO:改从数据库读值 这不就又要将一张表了吗 ++ 淦
+        },
         editBook (item) {
           this.$refs.edit.dialogFormVisible = true
           this.$refs.edit.form = {
@@ -203,5 +210,9 @@
 
   a:link, a:visited, a:focus {
     color: #3377aa;
+  }
+
+  .likeBooks {
+    margin-right: -50px;
   }
 </style>
