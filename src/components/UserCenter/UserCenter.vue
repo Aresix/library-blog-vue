@@ -1,5 +1,5 @@
 <template>
-  <div class="backgroud">
+  <div class="background">
     <UserInfo/>
     <UserBooks/>
   </div>
@@ -19,12 +19,15 @@
 </script>
 
 <style scoped>
-  .backgroud {
-    background-size: cover;
-    position: absolute;
+  .background {
+    background-size: 1000% 100%;
+    /*background-origin: padding-box;*/
+    /*position: absolute;*/
+    /*margin-top: -20px;*/
     width: 100%;
     /*height: 1060px;*/
     height: 100%;
-    background: url("../../assets/bg4.jpg") no-repeat;
+    background: url("../../assets/bg4.jpg") repeat-y right top;
+    padding-top: 20px;
   }
 </style>

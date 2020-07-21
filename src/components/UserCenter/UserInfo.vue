@@ -95,7 +95,7 @@
     /*width: 800px;*/
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.8);
     /*background-image: url("../../assets/card2.png");*/

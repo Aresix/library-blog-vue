@@ -6,7 +6,7 @@
         </div>
         <el-table
           :data="likeBookList"
-          height="250"
+          height="350"
           class="bookcard">
           <template slot="empty">快去书架上发现自己喜欢的书吧！</template>
           <el-table-column
@@ -86,6 +86,6 @@
     width: 100%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.3);
-    margin: 0px;
+    margin: 0;
   }
 </style>

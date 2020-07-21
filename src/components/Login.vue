@@ -76,12 +76,12 @@
   }
 
   .note {
-    background-size: cover;
+    background-size: 100% 100%;
     position: absolute;
     width: 100%;
     /*height: 1060px;*/
     height: 100%;
-    background: url("../assets/bg4.jpg") no-repeat;
+    background: url("../assets/bg4.jpg") no-repeat left top;
   }
 
   .login-title {

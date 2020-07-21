@@ -1,7 +1,7 @@
 <template>
     <div>
       <el-row style="height: 1400px">
-        <!--Search!!-->
+        <SearchComment @comSearch="searchRes" ref="searchComment"/>
         <div v-for="item in com.slice((currentPage-1)*pagesize,currentPage*pagesize)"
         :key="item.com_id">
           <el-card class="boxCard">
@@ -22,6 +22,7 @@
       <el-row>
         <el-pagination
           @current-change="handleCurrentChange"
+          style="margin-top: 25px"
           :current-page="currentPage"
           :page-size="pagesize"
           :total="com.length">
@@ -31,15 +32,17 @@
 </template>
 
 <script>
+    import SearchComment from './SearchComment'
     export default {
         name: 'BookCard',
+      components: {SearchComment},
       data () {
           return {
             com: [
               // {id: '', book: '白夜行', author: '嵬漪', content: '就当是一场梦，醒了很久还是很感动'}
             ],
             currentPage: 1,
-            pagesize: 7
+            pagesize: 6
           }
       },
       mounted () {
@@ -61,6 +64,16 @@
         },
         handleCurrentChange: function (currentPage) {
           this.currentPage = currentPage
+        },
+        searchRes () {
+          var _this = this
+          this.$axios
+            .get('/comments/search?keywords=' + this.$refs.searchComment.keywords, {})
+            .then(function (resp) {
+              if (resp && resp.status === 200) {
+                _this.com = resp.data
+              }
+            })
         }
       }
     }
