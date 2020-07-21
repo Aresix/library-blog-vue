@@ -34,8 +34,6 @@
           username: '',
           password: ''
         },
-        // username: '',
-        // password: '',
         responseResult: []
       }
   },
