@@ -1,7 +1,11 @@
 <template>
   <div class="background">
-    <UserInfo/>
-    <UserBooks/>
+    <el-container>
+      <el-main>
+        <UserInfo/>
+      </el-main>
+    </el-container>
+<!--    <UserBooks/>-->
   </div>
 </template>
 
@@ -20,14 +24,16 @@
 
 <style scoped>
   .background {
-    background-size: 1000% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
     /*background-origin: padding-box;*/
     /*position: absolute;*/
     /*margin-top: -20px;*/
     width: 100%;
     /*height: 1060px;*/
     height: 100%;
+    position: fixed;
     background: url("../../assets/bg4.jpg") repeat-y right top;
-    padding-top: 20px;
+    /*padding-top: 20px;*/
   }
 </style>

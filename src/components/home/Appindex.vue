@@ -4,8 +4,8 @@
   <div class="background">
     <el-container>
       <el-main>
-        <h2>大众书评</h2>
-        <BookCard/>
+        <h1 style="font-size: 45px;font-weight: bold;color: rgba(16,94,81,0.86); font-family: 方正清刻本悦宋简体; -webkit-text-stroke-width: 0.5px;-webkit-text-stroke-color: #ffffff">大众书评</h1>
+        <BookCard style="margin-top: 30px;"/>
       </el-main>
       <el-aside width="300px">
         <clock style="margin-top: 20px"/>

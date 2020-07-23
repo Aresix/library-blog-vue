@@ -2,66 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03d6d8aa-1369-43bc-977b-4b0bb43bf659" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/card_decoration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/name_decoration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/name_underline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Calendar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/SearchComment.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/ansi-styles/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/ansi-styles/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/ansi-styles/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/ansi-styles/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/node_modules/supports-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/node_modules/supports-color/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/node_modules/supports-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/node_modules/supports-color/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/chalk/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/has-flag/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/has-flag/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/has-flag/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/has-flag/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/postcss/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/node_modules/postcss/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/dist/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/array-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/source-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/source-map/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/supports-color/browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/supports-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/supports-color/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/supports-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/node_modules/supports-color/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCenter/UserBooks.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCenter/UserBooks.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/css/app.b07ee54de1e6a0889dc8dd8b6eda46e6.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.6e1ce43af09411fca1f7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/app.6e1ce43af09411fca1f7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/manifest.2ae2e69a05c33dfc65f8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.a948d190be335c9e1dfc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/js/vendor.a948d190be335c9e1dfc.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserCenter/UserCenter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCenter/UserCenter.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserCenter/UserInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserCenter/UserInfo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/Appindex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Appindex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/BookCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/BookCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/library/Books.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/library/Books.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,6 +132,10 @@
       <workItem from="1595262415956" duration="2620000" />
       <workItem from="1595265535246" duration="3182000" />
       <workItem from="1595314768643" duration="9005000" />
+      <workItem from="1595347307728" duration="2747000" />
+      <workItem from="1595404251445" duration="2823000" />
+      <workItem from="1595483504118" duration="3113000" />
+      <workItem from="1595487950015" duration="970000" />
     </task>
     <task id="LOCAL-00001" summary="目前完全实现了图书馆1.0功能，正在更新个人中心（包括头像上传和我的喜欢），需要将图书馆升级到1.1版本，即增加“我喜欢”功能。主页尚未更新，打算更新功能展示书评。">
       <created>1595057305507</created>
@@ -179,11 +158,31 @@
       <option name="project" value="LOCAL" />
       <updated>1595320508344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="还需关联“我”喜欢的书即可">
+      <created>1595347553159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595347553159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
@@ -191,17 +190,18 @@
     <MESSAGE value="目前完全实现了图书馆1.0功能，正在更新个人中心（包括头像上传和我的喜欢），需要将图书馆升级到1.1版本，即增加“我喜欢”功能。主页尚未更新，打算更新功能展示书评。" />
     <MESSAGE value="图书馆1.1前端更新完成（可能还会有细节上的改动 比如宽度啥的） 接下来速度收拾完个人主页" />
     <MESSAGE value="前端功能基本全部实现！ 个人主页还差一个搜索框 然后再加点别的装饰就好了 接下来就看后端的逻辑了！" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端功能基本全部实现！ 个人主页还差一个搜索框 然后再加点别的装饰就好了 接下来就看后端的逻辑了！" />
+    <MESSAGE value="还需关联“我”喜欢的书即可" />
+    <option name="LAST_COMMIT_MESSAGE" value="还需关联“我”喜欢的书即可" />
   </component>
   <component name="WindowStateProjectService">
     <state x="883" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595264103447">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="883" y="167" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1595264103447" />
-    <state x="130" y="14" key="CommitChangelistDialog2" timestamp="1595320365898">
+    <state x="130" y="14" key="CommitChangelistDialog2" timestamp="1595347525438">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="130" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595320365898" />
+    <state x="130" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1595347525438" />
     <state x="700" y="138" key="FileChooserDialogImpl" timestamp="1595173108266">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -210,34 +210,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="895" y="230" width="546" height="253" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1595057969287" />
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1595325339503">
+    <state width="723" height="199" key="GridCell.Tab.0.bottom" timestamp="1595487060332">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595325339503" />
-    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1595325339503">
+    <state width="723" height="199" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1595487060332" />
+    <state width="723" height="199" key="GridCell.Tab.0.center" timestamp="1595487060332">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595325339503" />
-    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1595325339503">
+    <state width="723" height="199" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1595487060332" />
+    <state width="723" height="199" key="GridCell.Tab.0.left" timestamp="1595487060332">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595325339503" />
-    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1595325339503">
+    <state width="723" height="199" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1595487060332" />
+    <state width="723" height="199" key="GridCell.Tab.0.right" timestamp="1595487060332">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595325339503" />
+    <state width="723" height="199" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1595487060332" />
     <state x="348" y="75" key="SettingsEditor" timestamp="1595054359979">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="348" y="75" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1595054359979" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595320704898">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1595347556638">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595320704898" />
-    <state x="72" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1595265613776">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1595347556638" />
+    <state x="72" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1595487954726">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="72" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1595265613776" />
+    <state x="72" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1595487954726" />
     <state x="356" y="102" width="1180" height="565" key="new project wizard" timestamp="1594020579700">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -246,9 +246,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="809" y="193" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1595150271988" />
-    <state x="792" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1595225060733">
+    <state x="792" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1595485158660">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="792" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595225060733" />
+    <state x="792" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1595485158660" />
   </component>
 </project>

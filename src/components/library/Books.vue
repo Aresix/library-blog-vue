@@ -25,7 +25,7 @@
               <div class="title">
                 <a href="">{{item.title}}</a>
               </div>
-              <el-checkbox v-model="like" @checked="likeBook(item.id)" class="likeBooks">喜欢</el-checkbox>
+<!--              <el-checkbox v-model="item.like" @checked="likeBook(item.id)" class="likeBooks">喜欢</el-checkbox>-->
               <i class="el-icon-delete" @click="deleteBook(item.id)"/>
             </div>
             <div class="author">{{item.author}}</div>
@@ -48,6 +48,7 @@
 <script>
     import EditForm from './EditForm'
     import SearchBar from './SearchBar'
+    import {mapState} from 'vuex'
     export default {
       name: 'Books',
       components: {SearchBar, EditForm},
@@ -55,8 +56,10 @@
         return {
           books: [],
           currentPage: 1,
-          pagesize: 10,
-          like: false
+          pagesize: 10
+          // like: '',
+          // likelist: [],
+          // username: JSON.parse(localStorage.getItem('user')).username
           // books: [
           //   {
           //     cover: 'http://lib.zjsru.edu.cn/__local/E/E9/5A/33C68A6BBF6CBC694B427CFF09D_489C6387_1183A.jpg',
@@ -73,8 +76,12 @@
           // ]
         }
       },
+      // computed: mapState({
+      //   username: state => state.user
+      // }),
       mounted: function () {
         this.loadBooks()
+        // this.doesLike()
         console.log('许墨！')
       },
       methods: {
@@ -134,11 +141,70 @@
             })
           })
         },
-        likeBook (item) {
-          this.like = !this.like
-          console.log(item)
-          // TODO:改从数据库读值 这不就又要将一张表了吗 ++ 淦
-        },
+        // doesLike (id) {
+        //   var _this = this
+        //   var uid = 0
+        //   this.$axios
+        //     .get('/users/' + this.username)
+        //     .then(resp => {
+        //       if (resp && resp.status === 200) {
+        //         uid = resp.data.id
+        //         console.log('果然是墨墨的小骗子！' + uid)
+        //       }
+        //     })
+        //     .catch(function (response) {
+        //       console.log(response)
+        //     })
+        //   this.$axios
+        //     .get('/likebooks/' + uid)
+        //     .then(resp => {
+        //       if (resp && resp.status === 200) {
+        //         _this.likelist = resp.data
+        //         console.log(_this.likelist)
+        //       }
+        //     })
+        //     .catch(function (response) {
+        //       console.log(response)
+        //     })
+        //     // 如果在榜上就显示喜欢
+        //     for (var i = 0; i < _this.likelist.length; i++) {
+        //       _this.item.like = false
+        //       if (_this.item.id === _this.likelist[i].id) {
+        //         _this.item.like = true
+        //         break
+        //       }
+        //     }
+        // },
+        // likeBook (item) {
+        //   // this.like = !this.like
+        //   // console.log(item)
+        //   var _this = this
+        //   var uid = 0
+        //   this.$axios
+        //     .get('/user/' + this.username)
+        //     .then(resp => {
+        //       if (resp && resp.status === 200) {
+        //         uid = resp.data.id
+        //         console.log('小骗子只有嵬漪一个！' + uid)
+        //       }
+        //     })
+        //     .catch(function (response) {
+        //       console.log(response)
+        //     })
+        //
+        //   this.$axios
+        //     .post('/likebooks/' + uid, {
+        //       uid: uid,
+        //       bid: this.books.id
+        //     }).then(resp => {
+        //       if (resp && resp.status === 200) {
+        //         this.books.like = true
+        //         this.$emit('likeBook')
+        //       }
+        //   })
+        //   // 向数据库发送 信息就vans了 一个是 用户名对应的id 还有一个是item的id
+        //   // TODO:改从数据库读值 这不就又要将一张表了吗 ++ 淦
+        // },
         editBook (item) {
           this.$refs.edit.dialogFormVisible = true
           this.$refs.edit.form = {
